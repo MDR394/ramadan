@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Ubuntu', sans-serif;
-    background: rgba(0, 0, 0, 0.1);
+    /* background: rgba(0, 0, 0, 0.1); */
 }
 
 .nav_icon{
@@ -101,5 +101,239 @@ header .text h3{
     }
     to{
         transform: translateY(30px);
+    }
+}
+
+
+
+
+
+
+#Group1, #Group2{
+    animation: example 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes example{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#Bikewithman, #bikegirlhead, #Vector_20{
+    animation: Bikewithman 1s infinite alternate;
+}
+@keyframes Bikewithman{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
+#Vector_20{
+    animation: Vector_20 1s infinite alternate;
+    transform-origin: right;
+    transform-box: fill-box;
+}
+@keyframes Vector_20{
+    0%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(20deg);
+    }
+}
+#Vector_7, #Vector_8, #Vector_9{
+    animation: Vector_7 3s infinite linear;
+}
+@keyframes Vector_7{
+    0%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translateX(-500px);
+    }
+}
+
+#Vector_10, #Vector_11, #Vector_12, #Vector_13, #Vector_14{
+    animation: Bikewithman 1.1s infinite alternate;
+}
+@keyframes Bikewithman{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
+#Vector_14{
+    animation: Bikewithman 1.11s infinite alternate;
+}
+@keyframes Bikewithman{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
+
+#laptopwomwnlegs{
+    animation: womenlegs 2s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes womenlegs{
+    from{
+        transform: rotate(-5deg);
+    }
+    to{
+        transform: rotate(5deg);
+    }
+}
+#Group4{
+    animation: laptopwomenhead 1s infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes laptopwomenhead{
+    from{
+        transform: rotate(-5deg);
+    }
+    to{
+        transform: rotate(5deg);
+    }
+}
+#lefttree{
+    animation: lefttree 1s infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes lefttree{
+    from{
+        transform: rotate(-3deg);
+    }
+    to{
+        transform: rotate(3deg);
+    }
+}
+#righttree{
+    animation: righttree 1.3s infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes righttree{
+    from{
+        transform: rotate(3deg);
+    }
+    to{
+        transform: rotate(-3deg);
+    }
+}
+#dogwomenarm{
+    animation: dogwomenarm 1s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes dogwomenarm{
+    from{
+        transform: rotate(-5deg);
+    }
+    to{
+        transform: rotate(5deg);
+    }
+}
+#GroupDWLL{
+    animation: womenleftleg 2s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes womenleftleg{
+    from{
+        transform: rotate(-25deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+#GroupDWRL{
+    animation: GroupDWRL 2s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes GroupDWRL{
+    from{
+        transform: rotate(25deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+#Vector_56, #Vector_57{
+    animation: doglegs 1s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes doglegs{
+    from{
+        transform: rotate(-15deg);
+    }
+    to{
+        transform: rotate(15deg);
+    }
+}
+#Vector_54, #Vector_55{
+    animation: dogRlegs 1s infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes dogRlegs{
+    from{
+        transform: rotate(15deg);
+    }
+    to{
+        transform: rotate(-15deg);
+    }
+}
+#dogtail{
+    animation: dogtail 1s infinite alternate;
+    transform-origin: right;
+    transform-box: fill-box;
+}
+@keyframes dogtail{
+    from{
+        transform: rotate(10deg);
+    }
+    to{
+        transform: rotate(-10deg);
+    }
+}
+#Vector_58{
+    animation: dogLear 1s infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes dogLear{
+    from{
+        transform: rotate(20deg);
+    }
+    to{
+        transform: rotate(-20deg);
+    }
+}
+#Vector_59{
+    animation: dogRear 1s infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes dogRear{
+    from{
+        transform: rotate(-20deg);
+    }
+    to{
+        transform: rotate(20deg);
     }
 }
